@@ -8,4 +8,5 @@ services:
       - VPNADDR=
       - VPNUSER=
       - VPNPASS=
+      - VPNTIMEOUT=
     restart: always

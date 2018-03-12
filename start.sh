@@ -13,6 +13,7 @@ done
 
 while [ true ]; do
   echo "------------ VPN Starts ------------"
+
   /usr/bin/forticlient
   echo "------------ VPN exited ------------"
   sleep 10
