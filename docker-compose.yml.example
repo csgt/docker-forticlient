@@ -1,0 +1,11 @@
+version: '2'
+services:
+  forticlient:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    environment:
+      - VPNADDR=
+      - VPNUSER=
+      - VPNPASS=
+    restart: always
