@@ -10,3 +10,4 @@ services:
       - VPNPASS=
       - VPNTIMEOUT=
     restart: always
+    privileged: true
