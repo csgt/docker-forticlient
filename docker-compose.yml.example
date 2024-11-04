@@ -1,7 +1,7 @@
-version: '2'
 services:
   forticlient:
-    build:
+    #platform: linux/x86_64
+    build:  
       context: ./
       dockerfile: Dockerfile
     environment:
